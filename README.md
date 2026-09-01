@@ -2,7 +2,7 @@
 
 > **Blue Protocol: Star Resonance Assist** — Free companion overlay tool for Blue Protocol: Star Resonance
 
-![Version](https://img.shields.io/badge/version-0.1.3.7--Preview-blue)
+![Version](https://img.shields.io/badge/version-0.1.3.8--Preview-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows_10/11-lightgrey)
 ![Price](https://img.shields.io/badge/price-Free-brightgreen)
 
