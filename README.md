@@ -1,111 +1,127 @@
 # BPSRAssist
 
-> **Blue Protocol: Star Resonance Assist** — Free companion overlay tool for Blue Protocol: Star Resonance
+> **Blue Protocol: Star Resonance Assist** — เครื่องมือช่วยเหลือ Overlay ฟรี สำหรับ Blue Protocol: Star Resonance
 
 ![Version](https://img.shields.io/badge/version-0.1.3.8--Preview-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows_10/11-lightgrey)
 ![Price](https://img.shields.io/badge/price-Free-brightgreen)
 
----
-
-## 📖 Overview
-
-BPSRAssist is a lightweight desktop overlay companion for **Blue Protocol: Star Resonance**. It provides real-time dungeon mechanics visualization, automated task assistance, and detailed combat statistics — all rendered as transparent overlay widgets on top of the game.
-
-**Free to use. No account required.**
+**[Thai](./README.md) | [English](./README.en.md)**
 
 ---
 
-## ✨ Features
+## 📖 ภาพรวม (Overview)
+
+BPSRAssist คือเครื่องมือ Overlay บนเดสก์ท็อปน้ำหนักเบาสำหรับ **Blue Protocol: Star Resonance** — แสดงภาพกลไกดันเจี้ยนแบบเรียลไทม์ ช่วยทำงานอัตโนมัติ และเก็บสถิติการต่อสู้โดยละเอียด ทั้งหมดเรนเดอร์เป็น widget โปร่งใสซ้อนทับอยู่บนหน้าต่างเกม
+
+![ตัวอย่าง Overlay ที่แสดงซ้อนทับบนเกม](docs/images/overlay-in-game.png)
+
+**ใช้งานฟรี ไม่ต้องสมัครบัญชี**
+
+---
+
+## 📚 คู่มือการใช้งาน
+
+- [คู่มือการใช้งาน Game Overlay](docs/OVERLAY_GUIDE.md)
+---
+
+## ✨ ฟีเจอร์
 
 ### 🗺️ Minimap Overlay
-- **Real-time dungeon mechanic visualization** — Rings, sectors, rectangles, lines, and polygons rendered on a custom minimap canvas
-- **Supported dungeons:**
-  - **S3 Raid** — Phase buffs, phase mapping, preset return, callouts, pinball, electromagnetic ring sequence
-  - **S3 Sea Ringed Reef** — Matrix callout beams, ice/wave safe zones, pizza danger zones, duet color mechanics
-  - **S3 Cursed Tomb** — Rectangle-based mechanics
-  - **S3 Giant Tower** — Rectangle-based mechanics
-  - **S3 Tina's Mindrealm** — Sector-based mechanics
-- **Entity rendering** — Local player (dot + facing arrow), teammates (dot), bosses/monsters (triangle), dead teammates (faded red)
-- **Configurable entity colors & sizes** — Customize per-kind via color picker and sliders
-- **Layout overlays** — Arena grid lines, circles, squares, radial lines per dungeon
+- **แสดงกลไกดันเจี้ยนแบบเรียลไทม์** — เรนเดอร์วงแหวน, sector, สี่เหลี่ยม, เส้น และรูปหลายเหลี่ยม บน minimap canvas ที่ปรับแต่งเองได้
+- **ดันเจี้ยนที่รองรับ:**
+  - **S3 Raid** — Phase buffs, การแมป phase, preset return, callouts, pinball, ลำดับวงแหวนแม่เหล็กไฟฟ้า
+  - **S3 Sea Ringed Reef** — ลำแสง Matrix callout, โซนปลอดภัยน้ำแข็ง/คลื่น, โซนอันตรายรูปพิซซ่า, กลไกสีแบบ duet
+  - **S3 Cursed Tomb** — กลไกแบบสี่เหลี่ยม (rectangle)
+  - **S3 Giant Tower** — กลไกแบบสี่เหลี่ยม (rectangle)
+  - **S3 Tina's Mindrealm** — กลไกแบบ sector
+- **การแสดงผล entity** — ผู้เล่น (จุด + ลูกศรทิศทาง), เพื่อนร่วมทีม (จุด), บอส/มอนสเตอร์ (สามเหลี่ยม), เพื่อนร่วมทีมที่ตาย (แดงจาง)
+- **ปรับสีและขนาด entity ได้** — ตั้งค่าตามประเภทผ่าน color picker และแถบเลื่อน
+- **Layout overlays** — เส้นกริดสนาม, วงกลม, สี่เหลี่ยม, เส้นรัศมี ตามแต่ละดันเจี้ยน
 
-### ⚔️ Auto Combat
-- Automated combat with configurable **lock position** and **radius limit**
-- **Minimap ring overlay** (cyan) showing the combat zone
-- Real-time stats: monsters killed, current target, home position
+![Minimap แสดงกลไกภายในดันเจี้ยน](docs/images/minimap-dungeon.png)
 
-### ⛏️ Auto Gathering
-- Automated resource gathering with **lock position** and **radius limit**
-- **Minimap ring overlay** (green) showing the gathering radius
-- Preview mode: ring displays before starting
+### ⚔️ Auto Combat (ต่อสู้อัตโนมัติ)
+- ต่อสู้อัตโนมัติ พร้อมตั้งค่า **ตำแหน่งล็อก (lock position)** และ **รัศมีจำกัด (radius limit)**
+- **วงแหวนบน Minimap** (สีฟ้า) แสดงโซนต่อสู้
+- สถิติแบบเรียลไทม์: จำนวนมอนสเตอร์ที่ฆ่า, เป้าหมายปัจจุบัน, ตำแหน่งบ้าน
 
-### 🎣 Auto Fishing
-- Automated fishing with catch/loss/rod-break statistics
+### ⛏️ Auto Gathering (เก็บทรัพยากรอัตโนมัติ)
+- เก็บทรัพยากรอัตโนมัติ พร้อม **lock position** และ **radius limit**
+- **วงแหวนบน Minimap** (สีเขียว) แสดงรัศมีเก็บของ
+- โหมดพรีวิว: แสดงวงแหวนก่อนเริ่มใช้งาน
+
+### 🎣 Auto Fishing (ตกปลาอัตโนมัติ)
+- ตกปลาอัตโนมัติ พร้อมสถิติติด/หลุด/คันเบ็ดหัก (catch / loss / rod-break)
 
 ### 📊 Overlay Widgets
-| Widget | Description |
+| Widget | รายละเอียด |
 |--------|-------------|
-| **Minimap** | Custom dungeon minimap with mechanic regions |
-| **Game Tasks** | Task selector card (Fishing, Gathering, Combat) |
-| **DPS Meter** | Real-time DPS statistics |
-| **Buff Monitor** | Active buff/debuff tracking |
-| **Debuff Monitor** | Incoming debuff alerts |
-| **Boss DBM** | Boss mechanic timers |
-| **Stats Monitor** | Character stat tracking |
-| **Skill Log** | Skill cast history |
-| **Spawn Tracker** | Monster spawn tracking |
-| **Clock** | In-game time display |
-| **Performance** | FPS and system metrics |
-| **Notification** | In-app notification system |
+| **Minimap** | มินิแมปดันเจี้ยนพร้อมโซนกลไก |
+| **Game Tasks** | การ์ดเลือกงาน (ตกปลา / เก็บของ / ต่อสู้) |
+| **DPS Meter** | สถิติ DPS แบบเรียลไทม์ |
+| **Buff Tracker** | ติดตามข้อมูลบัฟ/เดบัฟที่กำหนดไว้ |
+| **Buff Monitor** | ติดตามบัฟที่กำลังมีอยู่ |
+| **Debuff Monitor** | ติดตามเดบัฟที่กำลังมีอยู่ |
+| **Boss DBM** | ตัวจับเวลากลไกบอส |
+| **Stats Monitor** | ติดตามค่าสถานะตัวละคร |
+| **Skill Log** | ประวัติการใช้สกิล |
+| **Spawn Tracker** | ติดตามการเกิดของมอนสเตอร์ |
+| **Clock** | แสดงเวลาในเกม |
+| **Performance** | FPS และค่าสถิติระบบ |
+| **Notification** | ระบบแจ้งเตือนในแอป |
 
-### 📈 Analysis Pages
-- **DPS Statistics** — Detailed damage analysis per encounter
-- **Skill Breakdown** — Per-skill damage and usage statistics
-- **Buff Tracker** — Historical buff/debuff data
-- **Spawn Tracker** — Monster spawn pattern analysis
-- **Module Optimizer** — Module recommendation engine
+### 📈 หน้า Analysis (การวิเคราะห์)
+- **DPS Statistics** — วิเคราะห์ความเสียหายแบบละเอียดต่อเอนเคาน์เตอร์
+- **Skill Breakdown** — สถิติความเสียหายและการใช้งานแยกตามสกิล
+- **Buff Tracker** — ติดตามข้อมูลบัฟ/เดบัฟที่กำหนดไว้
+- **Spawn Tracker** — ติดตามการเกิดของมอนสเตอร์
+- **Module Optimizer** — ระบบแนะนำโมดูล
 
-### 🔧 Additional Features
-- **Game Launcher** — Start/close game via Steam or manual path (NA & SEA regions)
-- **Hotkey system** — Configurable keyboard shortcuts
-- **Auto-update** — Built-in update checking
+![หน้า Analysis — DPS Statistics](docs/images/analysis-dps.png)
+
+### 🔧 ฟีเจอร์เสริม (Features)
+- **Game Launcher** — เปิด/ปิดเกมผ่าน Steam หรือระบุ path เอง (ภูมิภาค NA และ SEA)
+- **ระบบคีย์ลัด (Hotkey)** — ปรับแต่งคีย์ลัดได้
+- **อัปเดตอัตโนมัติ** — ระบบตรวจสอบอัปเดตในตัว
 
 ---
 
-## 🚀 Getting Started
+## 🚀 เริ่มต้นใช้งาน (Getting Started)
 
-### Requirements
+### ความต้องการของระบบ
 - Windows 10/11 (x64)
-- Blue Protocol: Star Resonance installed
+- ติดตั้ง Blue Protocol: Star Resonance แล้ว
 
-### Installation
-1. Download the latest release
-2. Extract to a folder of your choice
-3. Run `BPSRAssist.exe`
-4. Configure server region (NA / SEA) and launch method (Steam / Manual Path)
-5. Click **Start Game** or launch the game separately
+### การติดตั้ง
+1. ดาวน์โหลด release ล่าสุด
+2. แตกไฟล์ไปยังโฟลเดอร์ที่ต้องการ
+3. รัน `BPSRAssist.exe`
+4. ตั้งค่าภูมิภาคเซิร์ฟเวอร์ (NA / SEA) และวิธีการเปิดเกม (Steam / ระบุ path เอง)
+5. กด **Start Game** หรือเปิดเกมแยกต่างหาก
 
----
-
-## ⚙️ How It Works
-
-BPSRAssist captures game data in real-time and renders overlay information on top of the game window. The minimap reads dungeon state, entity positions, buffs, and skill casts to display mechanic regions and warnings — helping you and your team navigate boss mechanics more effectively.
-
-All settings are stored locally in `config.yaml` next to the executable. No data is sent to external servers.
+![การตั้งค่าภูมิภาคเซิร์ฟเวอร์และการเปิดเกม](docs/images/settings-launcher.png)
 
 ---
 
-## ⚠️ Disclaimer
+## ⚙️ หลักการทำงาน (How It Works)
 
-- This tool is provided **as-is** for educational and personal use.
-- Use at your own discretion and always check the game's Terms of Service.
-- The developers are not responsible for any consequences arising from the use of this tool.
+BPSRAssist จับข้อมูลเกมแบบเรียลไทม์และเรนเดอร์ข้อมูล Overlay ซ้อนทับบนหน้าต่างเกม Minimap จะอ่านสถานะดันเจี้ยน ตำแหน่ง entity บัฟ และสกิลที่ใช้ เพื่อแสดงโซนกลไกและคำเตือน — ช่วยให้คุณและทีมรับมือกลไกบอสได้อย่างมีประสิทธิภาพมากขึ้น
+
+การตั้งค่าทั้งหมดถูกจัดเก็บในเครื่องผ่าน `config.yaml` (อยู่ข้างไฟล์โปรแกรม) ไม่มีการส่งข้อมูลไปยังเซิร์ฟเวอร์ภายนอก
 
 ---
 
-## 📄 License
+## ⚠️ ข้อปฏิเสธความรับผิดชอบ (Disclaimer)
 
-Copyright © Natsuki. All rights reserved.
+- เครื่องมือนี้ให้ใช้งาน **ตามสภาพ (as-is)** เพื่อการศึกษาและการใช้งานส่วนตัว
+- โปรดใช้วิจารณญาณ และตรวจสอบข้อกำหนดการใช้งาน (Terms of Service) ของเกมเสมอ
+- ผู้พัฒนาไม่รับผิดชอบต่อผลกระทบใดๆ ที่เกิดจากการใช้เครื่องมือนี้
 
-This software is provided free of charge for personal use. Redistribution, modification, or commercial use without explicit permission is prohibited.
+---
+
+## 📄 สิทธิ์การใช้งาน (License)
+
+Copyright © Natsuki สงวนลิขสิทธิ์
+
+ซอฟต์แวร์นี้ให้ใช้งานฟรีสำหรับการใช้งานส่วนตัว ห้ามเผยแพร่ ดัดแปลง หรือใช้ในเชิงพาณิชย์โดยไม่ได้รับอนุญาตเป็นลายลักษณ์อักษร
