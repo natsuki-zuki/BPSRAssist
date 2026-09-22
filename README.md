@@ -94,7 +94,7 @@ BPSRAssist คือเครื่องมือ Overlay บนเดสก์
 - ติดตั้ง Blue Protocol: Star Resonance แล้ว
 
 ### การติดตั้ง
-1. ดาวน์โหลด release ล่าสุด
+1. ดาวน์โหลด [Release](https://github.com/natsuki-zuki/BPSRAssist/releases/latest) ล่าสุด
 2. แตกไฟล์ไปยังโฟลเดอร์ที่ต้องการ
 3. รัน `BPSRAssist.exe`
 4. ตั้งค่าภูมิภาคเซิร์ฟเวอร์ (NA / SEA) และวิธีการเปิดเกม (Steam / ระบุ path เอง)
