@@ -95,7 +95,7 @@ BPSRAssist is a lightweight desktop overlay companion for **Blue Protocol: Star 
 - Blue Protocol: Star Resonance installed
 
 ### Installation
-1. Download the latest release
+1. Download the latest [release](https://github.com/natsuki-zuki/BPSRAssist/releases/latest)
 2. Extract to a folder of your choice
 3. Run `BPSRAssist.exe`
 4. Configure server region (NA / SEA) and launch method (Steam / Manual Path)
