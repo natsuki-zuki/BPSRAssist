@@ -65,9 +65,12 @@ BPSRAssist is a lightweight desktop overlay companion for **Blue Protocol: Star 
 | **Buff Monitor** | Tracks currently active buffs |
 | **Debuff Monitor** | Tracks currently active debuffs |
 | **Boss DBM** | Boss mechanic timers |
+| **Boss Aggro Monitor** | Boss hate/aggro meter — shows who the boss is currently targeting |
+| **Boss Stun Gauge** | Boss stun/break gauge (bosses only) with alert + sound when it hits STAGGERED |
 | **Stats Monitor** | Character stat tracking |
 | **Skill Log** | Skill cast history |
 | **Spawn Tracker** | Monster spawn tracking |
+| **Chat** | In-game chat overlay — custom tabs with channel/keyword filters, auto-translation, text-to-speech |
 | **Clock** | In-game time display |
 | **Performance** | FPS and system metrics |
 | **Notification** | In-app notification system |
