@@ -2,7 +2,7 @@
 
 > **Blue Protocol: Star Resonance Assist** — เครื่องมือช่วยเหลือ Overlay ฟรี สำหรับ Blue Protocol: Star Resonance
 
-![Version](https://img.shields.io/badge/version-0.1.3.8--Preview-blue)
+![Version](https://img.shields.io/badge/version-0.1.3.9--Preview-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows_10/11-lightgrey)
 ![Price](https://img.shields.io/badge/price-Free-brightgreen)
 
@@ -64,9 +64,12 @@ BPSRAssist คือเครื่องมือ Overlay บนเดสก์
 | **Buff Monitor** | ติดตามบัฟที่กำลังมีอยู่ |
 | **Debuff Monitor** | ติดตามเดบัฟที่กำลังมีอยู่ |
 | **Boss DBM** | ตัวจับเวลากลไกบอส |
+| **Boss Aggro Monitor** | ติดตามเมตร hate/aggro ของบอสว่าตอนนี้กำลังเล็งโจมตีใครอยู่ |
+| **Boss Stun Gauge** | แถบ stun/break ของบอส (แสดงเฉพาะบอส) พร้อมแจ้งเตือน + เสียงตอนเข้าสถานะ STAGGERED |
 | **Stats Monitor** | ติดตามค่าสถานะตัวละคร |
 | **Skill Log** | ประวัติการใช้สกิล |
 | **Spawn Tracker** | ติดตามการเกิดของมอนสเตอร์ |
+| **Chat** | หน้าต่างแชทในเกมแบบ overlay — แท็บกรองตาม channel/คำสำคัญ, แปลภาษาอัตโนมัติ, อ่านออกเสียง (TTS) |
 | **Clock** | แสดงเวลาในเกม |
 | **Performance** | FPS และค่าสถิติระบบ |
 | **Notification** | ระบบแจ้งเตือนในแอป |
